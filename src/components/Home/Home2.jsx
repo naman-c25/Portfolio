@@ -37,7 +37,7 @@ function Home2() {
               <i>
                 <b className="purple">Node.js, Express.js, and RESTful APIs</b>
               </i>{" "}
-              backed by <b className="purple">MySQL, MongoDB, and PostgreSQL</b>,
+              backed by <b className="purple">MySQL, MongoDB, PostgreSQL, and Firebase</b>,
               with Redis for caching and OTP flows.
               <br />
               <br />

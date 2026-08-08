@@ -24,7 +24,11 @@ function Reveal({ children, delay = 0 }) {
   }, []);
 
   return (
-    <div ref={ref} className="reveal" style={{ transitionDelay: `${delay}ms` }}>
+    <div
+      ref={ref}
+      className="reveal"
+      style={{ transitionDelay: `${delay}ms`, height: "100%" }}
+    >
       {children}
     </div>
   );

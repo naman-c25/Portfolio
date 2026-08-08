@@ -45,7 +45,7 @@ function Terminal() {
       "Languages:    Java · JavaScript (ES6+) · TypeScript",
       "Frontend:     React.js · Next.js · Redux Toolkit · Tailwind CSS · Bootstrap",
       "Backend:      Node.js · Express.js · REST APIs · WebSockets · Socket.io · Redis",
-      "Database:     MySQL · MongoDB · PostgreSQL",
+      "Database:     MySQL · MongoDB · PostgreSQL · Firebase",
       "DevOps:       Docker · Kubernetes · CI/CD · AWS (EC2, S3) · Git",
     ],
     experience: () => [

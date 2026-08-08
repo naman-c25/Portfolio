@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { ImPointRight } from "react-icons/im";
 
 function ProjectCards(props) {
   return (
@@ -10,9 +11,29 @@ function ProjectCards(props) {
       <Card.Img variant="top" src={props.imgPath} alt={props.title} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
-        </Card.Text>
+        {props.tagline && <p className="project-tagline">{props.tagline}</p>}
+        {props.points ? (
+          <ul className="project-points">
+            {props.points.map((point, i) => (
+              <li key={i}>
+                <ImPointRight className="purple" /> {point}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <Card.Text style={{ textAlign: "justify" }}>
+            {props.description}
+          </Card.Text>
+        )}
+        {props.tech && (
+          <div className="project-tech-badges">
+            {props.tech.map((t) => (
+              <span key={t} className="project-tech-badge">
+                {t}
+              </span>
+            ))}
+          </div>
+        )}
         <Button
           variant="primary"
           href={props.ghLink}

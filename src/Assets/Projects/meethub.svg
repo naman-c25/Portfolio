@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#160e22"/>
+      <stop offset="1" stop-color="#241436"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34d399" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <circle cx="700" cy="60" r="180" fill="#34d399" opacity="0.07"/>
+  <circle cx="80" cy="420" r="140" fill="#34d399" opacity="0.05"/>
+
+  <text x="56" y="86" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#f3ecfa">MeetHub</text>
+  <rect x="56" y="100" width="120" height="4" rx="2" fill="url(#glow)"/>
+  <rect x="56" y="100" width="46" height="4" rx="2" fill="#34d399"/>
+
+  <rect x="40" y="126" width="720" height="216" rx="12" fill="#120a1c" stroke="#34d399" stroke-opacity="0.35"/>
+  <rect x="40" y="126" width="720" height="34" rx="12" fill="#1a1226"/>
+  <rect x="40" y="148" width="720" height="12" fill="#1a1226"/>
+  <circle cx="64" cy="143" r="6" fill="#ff5f57"/>
+  <circle cx="84" cy="143" r="6" fill="#febc2e"/>
+  <circle cx="104" cy="143" r="6" fill="#28c840"/>
+
+  <text x="76" y="184" font-family="Consolas, Menlo, monospace" font-size="15" fill="#f3ecfa"><tspan fill="#34d399" font-weight="700">$</tspan> npm run meethub-server</text>
+  <text x="76" y="212" font-family="Consolas, Menlo, monospace" font-size="15" fill="#b39ddb">[socket] peer joined room a1b2-c3d4</text>
+  <text x="76" y="242" font-family="Consolas, Menlo, monospace" font-size="15" fill="#b39ddb">[webrtc] simple-peer connection established</text>
+  <text x="76" y="272" font-family="Consolas, Menlo, monospace" font-size="15" fill="#b39ddb">[auth] bcrypt session verified</text>
+  <text x="76" y="302" font-family="Consolas, Menlo, monospace" font-size="15" fill="#34d399">&#10003; meeting saved to history</text>
+
+  <rect x="56" y="368" rx="12" width="60" height="26" fill="none" stroke="#34d399" stroke-opacity="0.55"/>
+  <text x="86" y="386" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e4d8f0">React</text>
+  <rect x="128" y="368" rx="12" width="92" height="26" fill="none" stroke="#34d399" stroke-opacity="0.55"/>
+  <text x="174" y="386" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e4d8f0">WebRTC</text>
+  <rect x="232" y="368" rx="12" width="96" height="26" fill="none" stroke="#34d399" stroke-opacity="0.55"/>
+  <text x="280" y="386" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e4d8f0">Socket.io</text>
+  <rect x="340" y="368" rx="12" width="96" height="26" fill="none" stroke="#34d399" stroke-opacity="0.55"/>
+  <text x="388" y="386" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e4d8f0">MongoDB</text>
+</svg>

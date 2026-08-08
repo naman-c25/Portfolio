@@ -10,9 +10,9 @@ const experiences = [
     period: "Mar 2026 – Aug 2026",
     location: "Remote",
     points: [
-      "Architected a group-based PBAC (Permission-Based Access Control) system with ALLOW/DENY override resolution, spanning 20+ granular permissions across 8 role groups.",
-      "Designed and maintained RESTful APIs, TypeORM, and MySQL across 19 relational entities, implementing JWT auth and Redis-backed OTP verification for Admin and Vendor flows.",
-      "Built and deployed containerized microservices using Docker and GitHub Actions CI/CD, integrating a Gemini image-generation pipeline with S3/R2 object storage and idempotent boot-time recovery.",
+      "Architected a group-based PBAC (Permission-Based Access Control) system with ALLOW/DENY override resolution across 20+ granular permissions and 8 role groups.",
+      "Structured RESTful APIs, TypeORM, and MySQL across 19 relational entities, implementing JWT authentication and Redis-backed OTP verification for Admin and Vendor workflows.",
+      "Automated deployment of containerized microservices using Docker and GitHub Actions CI/CD, integrating a Gemini image-generation pipeline with S3/R2 object storage and idempotent boot-time recovery.",
     ],
   },
   {
@@ -23,7 +23,7 @@ const experiences = [
     points: [
       "Designed a session-cart reconciliation system to handle concurrent guest-to-authenticated-user transitions, preventing cart data loss during login flows before launch.",
       "Optimized MongoDB product and order queries using indexes and pagination, reducing unnecessary database reads and improving query efficiency for catalogue and transaction workflows.",
-      "Implemented Redis cache-aside caching with TTL-based expiration for frequently accessed product/catalog data, reducing repeated MongoDB reads and improving response latency for read-heavy endpoints.",
+      "Introduced Redis cache-aside caching with TTL-based expiration for frequently accessed product/catalog data, reducing repeated MongoDB reads and improving response latency for read-heavy endpoints.",
     ],
   },
 ];

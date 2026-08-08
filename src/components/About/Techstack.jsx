@@ -16,6 +16,7 @@ import {
   SiExpress,
   SiMysql,
   SiPostgresql,
+  SiFirebase,
   SiRedis,
   SiSocketdotio,
 } from "react-icons/si";
@@ -34,6 +35,7 @@ const stack = [
   { icon: <SiMysql />, name: "MySQL" },
   { icon: <DiMongodb />, name: "MongoDB" },
   { icon: <SiPostgresql />, name: "PostgreSQL" },
+  { icon: <SiFirebase />, name: "Firebase" },
   { icon: <SiRedis />, name: "Redis" },
   { icon: <DiGit />, name: "Git" },
 ];
