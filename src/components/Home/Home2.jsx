@@ -46,8 +46,8 @@ function Home2() {
               <b className="purple">Docker, Kubernetes, and AWS</b>.
               <br />
               <br />
-              Guardian rank on LeetCode, 2★ on CodeChef, and 400+ DSA problems
-              solved across LeetCode, GeeksforGeeks, and CodeChef.
+              A max LeetCode contest rating of 1460, 2★ on CodeChef, and 400+
+              DSA problems solved across LeetCode, GeeksforGeeks, and CodeChef.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
