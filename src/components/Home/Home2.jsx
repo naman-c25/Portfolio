@@ -37,7 +37,7 @@ function Home2() {
               <i>
                 <b className="purple">Node.js, Express.js, and RESTful APIs</b>
               </i>{" "}
-              backed by <b className="purple">MySQL, MongoDB, PostgreSQL, and Firebase</b>,
+              backed by <b className="purple">MySQL, MongoDB, and PostgreSQL</b>,
               with Redis for caching and OTP flows.
               <br />
               <br />
@@ -46,8 +46,14 @@ function Home2() {
               <b className="purple">Docker, Kubernetes, and AWS</b>.
               <br />
               <br />
-              A max LeetCode contest rating of 1460, 2★ on CodeChef, and 400+
+              A peak LeetCode contest rating of 1510, 2★ on CodeChef, and 400+
               DSA problems solved across LeetCode, GeeksforGeeks, and CodeChef.
+              <br />
+              <br />
+              Hackathon finalist among 50 teams at the{" "}
+              <b className="purple">Rumik × AWS Hackathon</b>, and a competitor
+              in the <b className="purple">TenzorX National AI Hackathon 2026</b>{" "}
+              hosted by Poonawalla Fincorp.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

@@ -45,12 +45,12 @@ function Terminal() {
       "Languages:    Java · JavaScript (ES6+) · TypeScript",
       "Frontend:     React.js · Next.js · Redux Toolkit · Tailwind CSS · Bootstrap",
       "Backend:      Node.js · Express.js · REST APIs · WebSockets · Socket.io · Redis",
-      "Database:     MySQL · MongoDB · PostgreSQL · Firebase",
+      "Database:     MySQL · MongoDB · PostgreSQL",
       "DevOps:       Docker · Kubernetes · CI/CD · AWS (EC2, S3) · Git",
     ],
     experience: () => [
-      "Mar 2026–Aug 2026  Sirhaana              Technical Intern — PBAC system, TypeORM/MySQL, Docker/CI",
-      "Jan 2026–Mar 2026  The Spiritual Company Full Stack Dev Intern — MongoDB, Redis caching",
+      "Mar 2026–Aug 2026  Sirhaana              Technical Intern — RBAC, Redis prompt caching, self-healing deploys",
+      "Jan 2026–Mar 2026  The Spiritual Company Full Stack Dev Intern — CI/CD, Redis caching, AI chat assistant",
     ],
     contact: () => [
       "Email: namanchaudhary2510@gmail.com",

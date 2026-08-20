@@ -10,9 +10,9 @@ const experiences = [
     period: "Mar 2026 – Aug 2026",
     location: "Remote",
     points: [
-      "Architected a group-based PBAC (Permission-Based Access Control) system with ALLOW/DENY override resolution across 20+ granular permissions and 8 role groups.",
-      "Structured RESTful APIs, TypeORM, and MySQL across 19 relational entities, implementing JWT authentication and Redis-backed OTP verification for Admin and Vendor workflows.",
-      "Automated deployment of containerized microservices using Docker and GitHub Actions CI/CD, integrating a Gemini image-generation pipeline with S3/R2 object storage and idempotent boot-time recovery.",
+      "Implemented permission-based access control across the admin panel's 76+ API endpoints and 8 user roles, with the UI reading the same rules the backend enforces.",
+      "Moved AI prompt lookups onto a Redis cache-aside layer so reads no longer hit the prompts table — the cache warms on boot, back-fills from the DB on a miss, and re-syncs on every prompt create, update, or delete.",
+      "Traced an intermittent image-generation bug to an API quota limit rather than a code defect, and fixed a staging outage by making the deploy self-healing instead of depending on manual scripts.",
     ],
   },
   {
@@ -21,9 +21,9 @@ const experiences = [
     period: "Jan 2026 – Mar 2026",
     location: "Remote",
     points: [
-      "Designed a session-cart reconciliation system to handle concurrent guest-to-authenticated-user transitions, preventing cart data loss during login flows before launch.",
-      "Optimized MongoDB product and order queries using indexes and pagination, reducing unnecessary database reads and improving query efficiency for catalogue and transaction workflows.",
-      "Introduced Redis cache-aside caching with TTL-based expiration for frequently accessed product/catalog data, reducing repeated MongoDB reads and improving response latency for read-heavy endpoints.",
+      "Set up independent CI/CD pipelines for 3 microservices on Hostinger, clearing the CORS misconfiguration and Git deployment blocks that were preventing auto-deploy on push.",
+      "Configured Redis caching and rewrote slow database queries, cutting API response times and easing read load on the database.",
+      "Wrote a domain-grounded chat assistant with custom prompting and multi-turn context handling, and rate-limited the paid endpoint to keep costs bounded.",
     ],
   },
 ];
