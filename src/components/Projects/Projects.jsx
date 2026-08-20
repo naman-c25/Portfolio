@@ -26,6 +26,32 @@ const projects = [
     demoLink: "https://naulej.com/",
   },
   {
+    imgPath: careersphere,
+    title: "CareerSphere",
+    tagline: "LinkedIn-style social networking platform with server-side PDF resumes.",
+    points: [
+      "Developed a social networking platform with Next.js and Express, with 20 REST endpoints over five Mongoose models: users, profiles, posts, comments, and connections.",
+      "Wired the social feed through Redux Toolkit so posts, likes, comments, and media uploads all update through three reducers, keeping feed state consistent no matter which page triggers the change.",
+      "Generated resumes server-side with PDFKit, composing profile, work history, and education into a downloadable file on request.",
+    ],
+    tech: ["Next.js", "Redux", "MongoDB", "PDFKit"],
+    ghLink: "https://github.com/naman-c25/CareerSphere",
+    demoLink: "https://career-sphere-five.vercel.app/",
+  },
+  {
+    imgPath: meethub,
+    title: "MeetHub",
+    tagline: "Peer-to-peer video conferencing app with native WebRTC, no media server.",
+    points: [
+      "Built a video conferencing app with React and native WebRTC — no SDK and no media server: peers connect directly, and Socket.io only relays the offer/answer/ICE handshake.",
+      "Went with a full-mesh topology so each participant streams straight to every other one; latency stays low and server cost stays at zero, though bandwidth grows with room size.",
+      "Added screen sharing that falls back to the camera when sharing stops, in-room chat with timestamped history, and auto-generated meeting IDs that are easy to read aloud.",
+    ],
+    tech: ["React", "WebRTC", "Socket.io", "MongoDB"],
+    ghLink: "https://github.com/naman-c25/MeetHub",
+    demoLink: "https://meet-hub-2jcd.vercel.app/",
+  },
+  {
     imgPath: financeAdvisor,
     title: "Finance Advisor & Expense Tracker",
     tagline:
@@ -54,19 +80,6 @@ const projects = [
       "https://raw.githubusercontent.com/naman-c25/FlashDB/main/docs/demo-main.gif",
   },
   {
-    imgPath: meethub,
-    title: "MeetHub",
-    tagline: "Peer-to-peer video conferencing app with native WebRTC, no media server.",
-    points: [
-      "Built a video conferencing app with React and native WebRTC — no SDK and no media server: peers connect directly, and Socket.io only relays the offer/answer/ICE handshake.",
-      "Went with a full-mesh topology so each participant streams straight to every other one; latency stays low and server cost stays at zero, though bandwidth grows with room size.",
-      "Added screen sharing that falls back to the camera when sharing stops, in-room chat with timestamped history, and auto-generated meeting IDs that are easy to read aloud.",
-    ],
-    tech: ["React", "WebRTC", "Socket.io", "MongoDB"],
-    ghLink: "https://github.com/naman-c25/MeetHub",
-    demoLink: "https://meet-hub-2jcd.vercel.app/",
-  },
-  {
     imgPath: venturestay,
     title: "VentureStay",
     tagline: "Full-stack Airbnb-style house rental listing platform.",
@@ -78,19 +91,6 @@ const projects = [
     tech: ["Express", "EJS", "MongoDB", "Cloudinary"],
     ghLink: "https://github.com/naman-c25/VentureStay",
     demoLink: "https://wanderlust-project-uukt.onrender.com/",
-  },
-  {
-    imgPath: careersphere,
-    title: "CareerSphere",
-    tagline: "LinkedIn-style social networking platform with server-side PDF resumes.",
-    points: [
-      "Developed a social networking platform with Next.js and Express, with 20 REST endpoints over five Mongoose models: users, profiles, posts, comments, and connections.",
-      "Wired the social feed through Redux Toolkit so posts, likes, comments, and media uploads all update through three reducers, keeping feed state consistent no matter which page triggers the change.",
-      "Generated resumes server-side with PDFKit, composing profile, work history, and education into a downloadable file on request.",
-    ],
-    tech: ["Next.js", "Redux", "MongoDB", "PDFKit"],
-    ghLink: "https://github.com/naman-c25/CareerSphere",
-    demoLink: "https://career-sphere-five.vercel.app/",
   },
 ];
 
